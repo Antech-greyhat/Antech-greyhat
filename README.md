@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/@antechcypher" target="blank"><img src="https://img.shields.io/twitter/follow/@antechcypher?logo=twitter&style=for-the-badge" alt="@antechcypher" /></a> </p>
 
-- 🔭 I’m currently working on [My portofolio](https://potofolio-2.vercel.app/)
+- 🔭 I’m currently working on [My portofolio](https://cybersec-eight.vercel.app/)
 
 - 🌱 I’m currently learning **Fronted web development and Networking**
 
@@ -23,17 +23,17 @@
 
 - 📫 How to reach me **antechcypherx@gmail.com**
 
-- 📄 Know about my experiences [https://potofolio-2.vercel.app/](https://potofolio-2.vercel.app/)
+- 📄 Know about my experiences [https://potofolio-2.vercel.app/](https://cybersec-eight.vercel.app/)
 
 - ⚡ Fun fact **The term "computer bug" literally came from a real bug!**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/antech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="antech" height="30" width="40" /></a>
-<a href="https://twitter.com/@antechcypher" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@antechcypher" height="30" width="40" /></a>
+<a href="https://twitter.com/@Antech1629" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@antechcypher" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/antech cypher-x" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="antech cypher-x" height="30" width="40" /></a>
 <a href="https://fb.com/antech cypher_x" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="antech cypher_x" height="30" width="40" /></a>
-<a href="https://instagram.com/antech254" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="antech254" height="30" width="40" /></a>
+<a href="https://instagram.com/greyhat.antech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="antech254" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/antech cypher_x" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="antech cypher_x" height="30" width="40" /></a>
 </p>
 
