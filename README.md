@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Antech-greyhat">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=6E5CFF&center=true&vCenter=true&width=600&lines=Hi+Visitor%F0%9F%91%8B!;My+Name+is+Anthony+Mwendwa;I+am+a+Self+Learned+Full-Stack+Developer;I+am+from+Kenya;Nice+to+Meet+You" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=6E5CFF&center=true&vCenter=true&width=600&lines=Hi+Visitor%F0%9F%91%8B!;My+Name+is+Anthony+Mwendwa;I+am+a+Self+taught+Backend+Developer+PenetrationTester;I+am+from+Kenya;Nice+to+Meet+You" alt="Typing SVG" />
   </a>
 </p>
 
