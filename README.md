@@ -55,6 +55,17 @@
 
 ---
 
+# 📈 Contribution Graph (ANIMATION)
+
+<div align="center">
+
+![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+
+</div>
+
+---
+
+
 ### 🔗 LET'S CONNECT
 
 [![Website](https://img.shields.io/badge/Antech-greyhat-6e5cff?style=flat-square&logo=google-chrome&logoColor=white)](https://github.com/Antech-greyhat)
