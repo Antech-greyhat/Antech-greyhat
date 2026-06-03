@@ -55,7 +55,7 @@
 
 ---
 
-# 📈 Contribution Graph (ANIMATION)
+# 📈 Contribution Graph
 
 <div align="center">
 
