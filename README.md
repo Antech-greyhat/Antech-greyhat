@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/Antech-greyhat">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1400&color=6E5CFF&center=true&vCenter=true&width=700&lines=Hey+There+%F0%9F%91%8B+Welcome!;My+Name+is+Antony+Mwendwa;From+Kenya%2C+Machakos+County;Self-Taught+%26+Community-Driven+Developer;Python+Backend+Developer;Penetration+Tester;AWS+Solutions+Architect+%7C+Cloud+Computing;DevSecOps+Engineer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1400&color=6E5CFF&center=true&vCenter=true&width=700&lines=Hey+There+%F0%9F%91%8B+Welcome!;My+Name+is+Antony+Mwendwa;From+Kenya%2C+Machakos+County;Self-Taught+%26+Community-Driven+Developer;IT+Student;Python+Scripting+%26+Automation;Cybersecurity+%26+Ethical+Hacking;Penetration+Testing;Cloud+%26+DevSecOps;Building+AI+for+Mental+Wellness" alt="Typing SVG" />
   </a>
 </p>
 
