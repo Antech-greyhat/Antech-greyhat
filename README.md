@@ -1,3 +1,11 @@
+<div align="center">
+  <img 
+    src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" 
+    width="100%" 
+    style="max-width:100%; height:auto;"
+  />
+</div>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e5cff,100:0ff4c6&height=200&section=header&text=Antony%20Mwendwa&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20profile&descAlignY=58&descSize=18&descColor=d0ccff" alt="header"/>
 </p>
