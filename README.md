@@ -40,7 +40,7 @@
 ### 🏆 GITHUB TROPHIES
 
 <p align="center">
-  <img src="https://gh-profile-trophy.vercel.app/?username=Antech-greyhat&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies">
+  <img src="https://github-trophies.vercel.app/?username=Antech-greyhat&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies">
 </p>
 
 ---
