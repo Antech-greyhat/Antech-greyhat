@@ -48,9 +48,7 @@
 ### 🌍 CONTRIBUTION ACTIVITY
 
 <p align="center">
-  <a href="https://github.com/Antech-greyhat">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Antech-greyhat&bg_color=0d0d0d&color=9e4c98&line=6e5cff&point=0ff4c6&area=true&hide_border=true" alt="Activity Graph">
-  </a>
+  <img src="https://ghchart.rshah.org/6e5cff/Antech-greyhat" alt="Contribution Chart">
 </p>
 
 ---
