@@ -74,7 +74,7 @@
 
 ### 🔗 LET'S CONNECT
 
-[![Website](https://img.shields.io/badge/Antech-greyhat-6e5cff?style=flat-square&logo=google-chrome&logoColor=white)](https://antonymwendwa.vercel.app/)
+[![Website](https://img.shields.io/badge/Antech-Mwendwa-6e5cff?style=flat-square&logo=google-chrome&logoColor=white)](https://antonymwendwa.vercel.app/)
 [![Sponsor](https://img.shields.io/badge/Support%20%2F%20Pay-0ff4c6?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://pay.antech.co.ke/pay/Apg8VQ3xh7SAwX1I)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/r00tant3ch)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/r00tant3ch)
