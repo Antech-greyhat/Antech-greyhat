@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486 46" width="486" height="46" role="img" aria-label="GitHub Activity">
+<title>GitHub Activity</title>
+<style>.c{animation:b 1.1s steps(1) infinite}@keyframes b{50%{opacity:0}}@media (prefers-reduced-motion:reduce){.c{animation:none}}</style>
+<rect x="1" y="1" width="484" height="44" rx="6" fill="#000" stroke="#00ff41"/>
+<text x="20" y="30" textLength="420" style="font-family:Consolas,&quot;DejaVu Sans Mono&quot;,&quot;Liberation Mono&quot;,&quot;Courier New&quot;,monospace;font-weight:700;font-size:20px" fill="#00ff41">root@antech:~# <tspan fill="#d8ffe4">tail -f activity.log</tspan></text>
+<rect class="c" x="445" y="13" width="11" height="21" fill="#00ff41"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 345" width="900" height="345" role="img" aria-label="Skills, styled as a port scan: linux: Shell, Setup &amp; Tooling; web: HTML, CSS &amp; JavaScript; security: Security Tools &amp; Platforms; pentest: Penetration Testing; python: Scripting &amp; Automation; cloud: Cloud &amp; DevSecOps; greyhat: Ethical Hacking">
+<title>Skills port scan</title>
+<style>text{font-family:Consolas,"DejaVu Sans Mono","Liberation Mono","Courier New",monospace;font-weight:700;font-size:18px;fill:#b6ffcb}.h{fill:#00ff41}.ok{fill:#00ff41}.f{fill:#00ff41;fill-opacity:.8;font-size:16px}.a{animation:a .01s steps(1) both}@keyframes a{from{opacity:0}}@media (prefers-reduced-motion:reduce){.a{animation:none}}</style>
+<rect x="1" y="1" width="898" height="343" rx="6" fill="#000" stroke="#00ff41"/>
+<text class="f" x="24" y="34">Nmap scan report for antech (profile)</text>
+<text class="f" x="24" y="56">Host is up. 7 skills exposed.</text>
+<text class="h" x="24" y="86">PORT</text><text class="h" x="170" y="86">STATE</text><text class="h" x="250" y="86">SERVICE</text><text class="h" x="390" y="86">VERSION</text>
+<g class="a" style="animation-delay:500ms"><text x="24" y="112">22/tcp</text><text class="ok" x="170" y="112">open</text><text x="250" y="112">linux</text><text x="390" y="112">Shell, Setup &amp; Tooling</text></g>
+<g class="a" style="animation-delay:760ms"><text x="24" y="137">80/tcp</text><text class="ok" x="170" y="137">open</text><text x="250" y="137">web</text><text x="390" y="137">HTML, CSS &amp; JavaScript</text></g>
+<g class="a" style="animation-delay:1020ms"><text x="24" y="162">443/tcp</text><text class="ok" x="170" y="162">open</text><text x="250" y="162">security</text><text x="390" y="162">Security Tools &amp; Platforms</text></g>
+<g class="a" style="animation-delay:1280ms"><text x="24" y="187">4444/tcp</text><text class="ok" x="170" y="187">open</text><text x="250" y="187">pentest</text><text x="390" y="187">Penetration Testing</text></g>
+<g class="a" style="animation-delay:1540ms"><text x="24" y="212">8000/tcp</text><text class="ok" x="170" y="212">open</text><text x="250" y="212">python</text><text x="390" y="212">Scripting &amp; Automation</text></g>
+<g class="a" style="animation-delay:1800ms"><text x="24" y="237">8443/tcp</text><text class="ok" x="170" y="237">open</text><text x="250" y="237">cloud</text><text x="390" y="237">Cloud &amp; DevSecOps</text></g>
+<g class="a" style="animation-delay:2060ms"><text x="24" y="262">31337/tcp</text><text class="ok" x="170" y="262">open</text><text x="250" y="262">greyhat</text><text x="390" y="262">Ethical Hacking</text></g>
+<text class="f a" x="24" y="307" style="animation-delay:2320ms">Nmap done: 1 host up, 7 services open</text>
+</svg>

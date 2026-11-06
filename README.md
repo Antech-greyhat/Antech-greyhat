@@ -2,9 +2,13 @@
   <img src="./assets/banner-top.svg" width="100%" alt="Antony Mwendwa - welcome to my profile"/>
 </p>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" />
-</div>
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
+
+<p align="center">
+  <img src="./assets/boot.svg" width="100%" alt="Boot sequence ending in an ASCII art skull"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/Antech-greyhat">
@@ -12,14 +16,25 @@
   </a>
 </p>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
 
 <div align="center">
 
-<h2>
-  <img src="./assets/icons/chart-bar.svg" height="28" alt=""/> Profile Stats
-  <img height="40" alt="" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
-</h2>
+<h2><img src="./assets/sections/skills.svg" alt="Skills"/></h2>
+
+<img src="./assets/skills-scan.svg" width="100%" alt="Skills: Linux, web, security, penetration testing, Python, cloud and ethical hacking, styled as a port scan"/>
+
+</div>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
+
+<div align="center">
+
+<h2><img src="./assets/sections/profile-stats.svg" alt="Profile Stats"/></h2>
 
 <table align="center">
   <tr>
@@ -30,77 +45,73 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="https://komarev.com/ghpvc/?username=Antech-greyhat&color=6e5cff&style=flat-square&label=Profile+views" alt="Profile views"/>
+      <img src="https://komarev.com/ghpvc/?username=Antech-greyhat&color=00ff41&style=flat-square&label=Profile+views&labelColor=000000" alt="Profile views"/>
     </td>
     <td align="center">
-      <a href="https://github.com/Antech-greyhat?tab=followers"><img src="https://img.shields.io/github/followers/Antech-greyhat?style=social" alt="Followers"/></a>
+      <a href="https://github.com/Antech-greyhat?tab=followers"><img src="https://img.shields.io/github/followers/Antech-greyhat?style=flat-square&color=00ff41&labelColor=000000&label=followers" alt="Followers"/></a>
     </td>
     <td align="center">
-      <a href="https://github.com/Antech-greyhat?tab=repositories"><img src="https://img.shields.io/github/stars/Antech-greyhat?style=social" alt="Stars"/></a>
+      <a href="https://github.com/Antech-greyhat?tab=repositories"><img src="https://img.shields.io/github/stars/Antech-greyhat?style=flat-square&color=00ff41&labelColor=000000&label=stars" alt="Stars"/></a>
     </td>
     <td align="center">
-      <img src="https://awesome.re/badge.svg" alt="Awesome"/>
+      <img src="https://img.shields.io/badge/status-awesome-00ff41?style=flat-square&labelColor=000000" alt="Awesome"/>
     </td>
   </tr>
 </table>
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
 
 <div align="center">
 
-<h2>
-  <img src="./assets/icons/chart-line.svg" height="28" alt=""/> GitHub Stats
-  <img height="40" alt="" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
-</h2>
+<h2><img src="./assets/sections/github-stats.svg" alt="GitHub Stats"/></h2>
 
-<img src="https://github-readme-stats-eight-navy.vercel.app/api?username=Antech-greyhat&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats"/>
+<img src="https://github-readme-stats-eight-navy.vercel.app/api?username=Antech-greyhat&show_icons=true&count_private=true&bg_color=000000&title_color=00FF41&text_color=B6FFCB&icon_color=00FF41&border_color=00FF41&border_radius=6" alt="GitHub Stats"/>
 
-<img src="https://github-readme-stats-eight-navy.vercel.app/api/top-langs/?username=Antech-greyhat&theme=radical&layout=compact&hide_border=true&langs_count=8" alt="Top Languages"/>
+<img src="./assets/languages.svg" alt="Top Languages"/>
 
-<img width="420" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Antech-greyhat&count_private=true&theme=radical&border_radius=10&hide_border=true" alt="Streak Stats"/>
+<img width="420" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Antech-greyhat&count_private=true&background=000000&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=B6FFCB&sideLabels=B6FFCB&dates=B6FFCB&border_radius=6" alt="Streak Stats"/>
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
 
 <div align="center">
 
-<h2>
-  <img src="./assets/icons/trophy.svg" height="28" alt=""/> GitHub Trophies
-  <img height="40" alt="" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
-</h2>
+<h2><img src="./assets/sections/trophies.svg" alt="GitHub Trophies"/></h2>
 
-<img src="https://github-trophies.vercel.app/?username=Antech-greyhat&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies"/>
+<img src="https://github-trophies.vercel.app/?username=Antech-greyhat&theme=matrix&no-frame=true&margin-w=8&column=6" alt="GitHub Trophies"/>
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
 
 <div align="center">
 
-<h2>
-  <img src="./assets/icons/activity.svg" height="28" alt=""/> GitHub Activity
-  <img height="40" alt="" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
-</h2>
+<h2><img src="./assets/sections/activity.svg" alt="GitHub Activity"/></h2>
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" width="100%"/>
 
 <br/><br/>
 
-<img src="https://ghchart.rshah.org/6e5cff/Antech-greyhat" alt="Contribution Chart"/>
+<img src="https://ghchart.rshah.org/00ff41/Antech-greyhat" alt="Contribution Chart"/>
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
 
 <div align="center">
 
-<h2>
-  <img src="./assets/icons/grid-dots.svg" height="28" alt=""/> Contribution Snake
-  <img height="40" alt="" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
-</h2>
+<h2><img src="./assets/sections/snake.svg" alt="Contribution Snake"/></h2>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Antech-greyhat/Antech-greyhat/output/github-snake-dark.svg" />
@@ -110,22 +121,15 @@
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
 
 <div align="center">
 
-<h2>
-  <img src="./assets/icons/link.svg" height="28" alt=""/> Let's Connect
-  <img height="40" alt="" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
-</h2>
+<h2><img src="./assets/sections/connect.svg" alt="Let's Connect"/></h2>
 
-[![Website](https://img.shields.io/badge/Antech-Mwendwa-6e5cff?style=flat-square&logo=google-chrome&logoColor=white)](https://antonymwendwa.vercel.app/)
-[![Sponsor](https://img.shields.io/badge/Support%20%2F%20Pay-0ff4c6?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://pay.antech.co.ke/pay/Apg8VQ3xh7SAwX1I)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/r00tant3ch)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/r00tant3ch)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/message/254714452396)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Antech-greyhat)
-[![Email](https://img.shields.io/badge/Email-Antony%40Mwendwa-6e5cff?style=flat-square&logo=gmail&logoColor=white)](mailto:antechittech@gmail.com)
+<a href="https://antonymwendwa.vercel.app/"><img src="./assets/links/website.svg" alt="Website"/></a> <a href="https://pay.antech.co.ke/pay/Apg8VQ3xh7SAwX1I"><img src="./assets/links/support.svg" alt="Sponsor"/></a> <a href="https://instagram.com/r00tant3ch"><img src="./assets/links/instagram.svg" alt="Instagram"/></a> <a href="https://t.me/r00tant3ch"><img src="./assets/links/telegram.svg" alt="Telegram"/></a> <a href="https://wa.me/message/254714452396"><img src="./assets/links/whatsapp.svg" alt="WhatsApp"/></a> <a href="https://github.com/Antech-greyhat"><img src="./assets/links/github.svg" alt="GitHub"/></a> <a href="mailto:antechittech@gmail.com"><img src="./assets/links/email.svg" alt="Email"/></a>
 
 </div>
 
