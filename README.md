@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e5cff,100:0ff4c6&height=200&section=header&text=Antony%20Mwendwa&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20profile&descAlignY=58&descSize=18&descColor=d0ccff" alt="header"/>
+  <img src="./assets/banner-top.svg" width="100%" alt="Antony Mwendwa - welcome to my profile"/>
 </p>
 
 <div align="center">
@@ -130,5 +130,5 @@
 </div>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ff4c6,100:6e5cff&height=200&section=footer&text=Antony%20Mwendwa&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=58&desc=Nice%20to%20meet%20you&descAlignY=78&descSize=18&descColor=d0ccff" alt="footer"/>
+  <img src="./assets/banner-bottom.svg" width="100%" alt="Antony Mwendwa - nice to meet you"/>
 </p>
