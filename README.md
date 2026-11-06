@@ -69,7 +69,7 @@
 
 <h2><img src="./assets/sections/github-stats.svg" alt="GitHub Stats"/></h2>
 
-<img src="https://github-readme-stats-eight-navy.vercel.app/api?username=Antech-greyhat&show_icons=true&count_private=true&bg_color=000000&title_color=00FF41&text_color=B6FFCB&icon_color=00FF41&border_color=00FF41&border_radius=6" alt="GitHub Stats"/>
+<img src="https://github-readme-stats-eight-navy.vercel.app/api?username=Antech-greyhat&show_icons=true&count_private=true&show=prs_merged,prs_merged_percentage,reviews&card_width=495&bg_color=000000&title_color=00FF41&text_color=B6FFCB&icon_color=00FF41&border_color=00FF41&border_radius=6" alt="GitHub Stats"/>
 
 <img src="./assets/languages.svg" alt="Top Languages"/>
 

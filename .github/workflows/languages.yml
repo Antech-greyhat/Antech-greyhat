@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - .github/scripts/languages.mjs
+      - .github/scripts/languages.py
       - .github/workflows/languages.yml
 
 permissions:
@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Build card
-        run: node .github/scripts/languages.mjs
+        run: python3 .github/scripts/languages.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Optional: add a LANGS_TOKEN secret to include private repos.
