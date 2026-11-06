@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 287" width="900" height="287" role="img" aria-label="Boot sequence: every service reports OK, ending with an ASCII art skull">
+<title>Boot sequence</title>
+<defs><filter id="g" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>text{font-family:Consolas,"DejaVu Sans Mono","Liberation Mono","Courier New",monospace;font-weight:700;font-size:18px;fill:#b6ffcb}.ok{fill:#00ff41}.sk{fill:#00ff41;font-size:18px}.p{fill:#00ff41}.c{fill:#00ff41;animation:b 1.1s steps(1) infinite}.a{animation:a .01s steps(1) both}@keyframes a{from{opacity:0}}@keyframes b{50%{opacity:0}}@media (prefers-reduced-motion:reduce){.a,.c{animation:none}}</style>
+<rect x="1" y="1" width="898" height="285" rx="6" fill="#000" stroke="#00ff41"/>
+<g class="a" style="animation-delay:200ms"><text x="24" y="44">[ <tspan class="ok">OK</tspan> ]</text><text x="104" y="44">Mounting /dev/antech</text></g>
+<g class="a" style="animation-delay:580ms"><text x="24" y="69">[ <tspan class="ok">OK</tspan> ]</text><text x="104" y="69">Loading kernel: greyhat</text></g>
+<g class="a" style="animation-delay:960ms"><text x="24" y="94">[ <tspan class="ok">OK</tspan> ]</text><text x="104" y="94">loading skills...</text></g>
+<g class="a" style="animation-delay:1340ms"><text x="24" y="119">[ <tspan class="ok">OK</tspan> ]</text><text x="104" y="119">Starting python-automation.service</text></g>
+<g class="a" style="animation-delay:1720ms"><text x="24" y="144">[ <tspan class="ok">OK</tspan> ]</text><text x="104" y="144">Starting security-scanner.service</text></g>
+<g class="a" style="animation-delay:2100ms"><text x="24" y="169">[ <tspan class="ok">OK</tspan> ]</text><text x="104" y="169">Connecting to cloud</text></g>
+<g class="a" style="animation-delay:2480ms"><text x="24" y="194">[ <tspan class="ok">OK</tspan> ]</text><text x="104" y="194">Starting mental-wellness.service</text></g>
+<g class="a" style="animation-delay:2860ms"><text x="24" y="219">[ <tspan class="ok">OK</tspan> ]</text><text x="104" y="219">Reached target: Profile</text></g>
+<g class="a" style="animation-delay:3240ms"><text class="p" x="24" y="244" textLength="194.4">antech login: <tspan fill="#d8ffe4">root</tspan></text><rect class="c" x="224" y="229" width="11" height="19"/></g>
+<g class="a" filter="url(#g)" style="animation-delay:3440ms">
+<text x="669.6" y="37.5" class="sk">       ______</text>
+<text x="669.6" y="57.5" class="sk">    .-"      "-.</text>
+<text x="669.6" y="77.5" class="sk">   /            \</text>
+<text x="669.6" y="97.5" class="sk">  |              |</text>
+<text x="669.6" y="117.5" class="sk">  |,  .-.  .-.  ,|</text>
+<text x="669.6" y="137.5" class="sk">  | )(__/  \__)( |</text>
+<text x="669.6" y="157.5" class="sk">  |/     /\     \|</text>
+<text x="669.6" y="177.5" class="sk">  (_     ^^     _)</text>
+<text x="669.6" y="197.5" class="sk">   \__|IIIIII|__/</text>
+<text x="669.6" y="217.5" class="sk">    | \IIIIII/ |</text>
+<text x="669.6" y="237.5" class="sk">    \          /</text>
+<text x="669.6" y="257.5" class="sk">     '--------'</text>
+</g>
+</svg>

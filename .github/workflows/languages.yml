@@ -1,0 +1,38 @@
+name: Generate Language Card
+
+on:
+  schedule: # 03:15 Nairobi (EAT) == 00:15 UTC
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/scripts/languages.py
+      - .github/workflows/languages.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build card
+        run: python3 .github/scripts/languages.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: add a LANGS_TOKEN secret to include private repos.
+          LANGS_TOKEN: ${{ secrets.LANGS_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/languages.svg
+          if git commit -m "generated"; then
+            git pull --rebase origin main
+            git push
+          fi
