@@ -1,14 +1,14 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e5cff,100:0ff4c6&height=200&section=header&text=Antony%20Mwendwa&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20profile&descAlignY=58&descSize=18&descColor=d0ccff" alt="header"/>
+</p>
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" />
 </div>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e5cff,100:0ff4c6&height=200&section=header&text=Antony%20Mwendwa&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20profile&descAlignY=58&descSize=18&descColor=d0ccff" alt="header"/>
-</p>
-
-<p align="center">
   <a href="https://github.com/Antech-greyhat">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1400&color=6E5CFF&center=true&vCenter=true&width=700&lines=Hey+There+%F0%9F%91%8B+Welcome!;My+Name+is+Antony+Mwendwa;From+Kenya%2C+Machakos+County;Self-Taught+%26+Community-Driven+Developer;IT+Student;Python+Scripting+%26+Automation;Cybersecurity+%26+Ethical+Hacking;Penetration+Testing;Cloud+%26+DevSecOps;Building+AI+for+Mental+Wellness" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1400&color=00FF41&background=000000&center=false&vCenter=true&width=700&height=50&lines=root%40antech%3A~%23+.%2Fwelcome.sh;%5B%2B%5D+Access+granted.+Welcome!;%5B%2B%5D+user%3A+Antony+Mwendwa;%5B%2B%5D+location%3A+Kenya%2C+Machakos+County;%5B%2B%5D+role%3A+IT+Student;%5B%2B%5D+path%3A+Self-Taught+Python+Developer;%5B%2B%5D+mindset%3A+Security-Driven+%26+Cloud-Native;%5B%2B%5D+scripting%3A+Python+%26+Automation;%5B%2B%5D+focus%3A+Cybersecurity+%26+Ethical+Hacking;%5B%2B%5D+focus%3A+Penetration+Testing;%5B%2B%5D+focus%3A+Cloud+%26+DevSecOps;%5B%2B%5D+building%3A+Cybersecurity+Tools+%26+Platforms;%5B%2B%5D+building%3A+Tech+That+Guards+Mental+Wellness" alt="Typing SVG" />
   </a>
 </p>
 
@@ -130,5 +130,5 @@
 </div>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ff4c6,100:6e5cff&height=120&section=footer&text=Nice%20to%20Meet%20You%20👋&fontSize=14&fontColor=d0ccff&fontAlignY=65" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ff4c6,100:6e5cff&height=200&section=footer&text=Antony%20Mwendwa&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=58&desc=Nice%20to%20meet%20you&descAlignY=78&descSize=18&descColor=d0ccff" alt="footer"/>
 </p>
