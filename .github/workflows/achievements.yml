@@ -1,0 +1,79 @@
+name: Refresh GitHub Achievements
+
+on:
+  schedule:
+    # GitHub's shortest supported interval; offset from the top of the hour.
+    - cron: "2-59/5 * * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [achievement-refresh]
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - .github/scripts/achievements.py
+      - .github/scripts/sync_achievements.py
+      - .github/workflows/achievements.yml
+      - tests/test_achievements.py
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-achievements-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - name: Verify automatic badge updates
+        run: python3 -m unittest discover -s tests -p 'test_achievements.py'
+
+  refresh:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: read
+      issues: read
+      discussions: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - name: Verify updater behavior
+        run: python3 -m unittest discover -s tests -p 'test_achievements.py'
+      - name: Discover and refresh earned badges
+        run: python3 .github/scripts/sync_achievements.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional, only if a linked milestone needs private-repo access.
+          ACHIEVEMENTS_TOKEN: ${{ secrets.ACHIEVEMENTS_TOKEN }}
+      - name: Publish changed achievement history
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- README.md assets/achievements
+          if git diff --cached --quiet; then
+            echo "No achievement changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh GitHub achievements"
+          for attempt in 1 2 3; do
+            git pull --rebase origin "$DEFAULT_BRANCH"
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then
+              exit 0
+            fi
+          done
+          echo "Could not publish achievement changes after three attempts."
+          exit 1
