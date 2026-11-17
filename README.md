@@ -93,6 +93,42 @@
   <img src="./assets/divider.svg" width="100%" alt=""/>
 </p>
 
+<!-- BEGIN GITHUB ACHIEVEMENTS -->
+<div align="center">
+
+<h2 id="github-achievements"><img src="./assets/sections/achievements.svg" alt="GitHub Achievements"/></h2>
+
+<p><a href="https://github.com/Antech-greyhat?achievement=galaxy-brain&amp;tab=achievements"><img src="./assets/achievements/galaxy-brain.svg" width="360" alt="Galaxy Brain. Base unlocked: 09 Nov 2026 (2 accepted answers); Bronze milestone: 10 Nov 2026 (8 accepted answers); Silver milestone: 17 Nov 2026 (16 accepted answers). Dates in EAT (UTC+3)."/></a> <a href="https://github.com/Antech-greyhat?achievement=pair-extraordinaire&amp;tab=achievements"><img src="./assets/achievements/pair-extraordinaire.svg" width="360" alt="Pair Extraordinaire. Base unlocked: 03 Oct 2026 (1 coauthored merged PR); Bronze milestone: 06 Nov 2026 (10 coauthored merged PRs). Dates in EAT (UTC+3)."/></a></p>
+<p><a href="https://github.com/Antech-greyhat?achievement=pull-shark&amp;tab=achievements"><img src="./assets/achievements/pull-shark.svg" width="360" alt="Pull Shark. Base unlocked: 13 Apr 2026 (2 merged pull requests); Bronze milestone: 16 Sep 2026 (16 merged pull requests); Silver milestone: 29 Oct 2026 (128 merged pull requests). Dates in EAT (UTC+3)."/></a> <a href="https://github.com/Antech-greyhat?achievement=yolo&amp;tab=achievements"><img src="./assets/achievements/yolo.svg" width="360" alt="YOLO. Base unlocked: 12 Jun 2026 (Merged without a review). Dates in EAT (UTC+3)."/></a></p>
+<p><a href="https://github.com/Antech-greyhat?achievement=quickdraw&amp;tab=achievements"><img src="./assets/achievements/quickdraw.svg" width="360" alt="Quickdraw. Base unlocked: 26 Nov 2025 (Closed within 5 minutes of opening). Dates in EAT (UTC+3)."/></a></p>
+
+<p><sub>Verified 17 Nov 2026 · Dates in EAT (UTC+3).<br/>Base dates are GitHub unlock dates; later tiers show the linked milestone activity date.</sub></p>
+
+</div>
+
+<details>
+<summary>Badge history and source links</summary>
+
+| Badge | Tier | Date (EAT) | Milestone | Source |
+| :--- | :--- | :--- | :--- | :--- |
+| Galaxy Brain | Base unlocked | 09 Nov 2026 | 2 accepted answers | [View activity](https://github.com/technorant/MarineAssistant/discussions/6#discussioncomment-19496284) |
+| Galaxy Brain | Bronze milestone | 10 Nov 2026 | 8 accepted answers | [View activity](https://github.com/Antech-greyhat/Learn.py/discussions/47#discussioncomment-19515552) |
+| Galaxy Brain | Silver milestone | 17 Nov 2026 | 16 accepted answers | [View activity](https://github.com/Antech-greyhat/Learn.py/discussions/62#discussioncomment-19675583) |
+| Pair Extraordinaire | Base unlocked | 03 Oct 2026 | 1 coauthored merged PR | [View activity](https://github.com/technorant/MarineAssistant/pull/5) |
+| Pair Extraordinaire | Bronze milestone | 06 Nov 2026 | 10 coauthored merged PRs | [View activity](https://github.com/Antech-greyhat/VulnHub/pull/4) |
+| Pull Shark | Base unlocked | 13 Apr 2026 | 2 merged pull requests | [View activity](https://github.com/technorant/MarineAssistant/pull/2) |
+| Pull Shark | Bronze milestone | 16 Sep 2026 | 16 merged pull requests | [View activity](https://github.com/Antech-greyhat/Learn.py/pull/1) |
+| Pull Shark | Silver milestone | 29 Oct 2026 | 128 merged pull requests | [View activity](https://github.com/Antech-greyhat/Emobilis-Template/pull/1) |
+| YOLO | Base unlocked | 12 Jun 2026 | Merged without a review | [View activity](https://github.com/mwebidouglas08-netizen/ROBOTIC-CROP-DISEASE-DETECTION-PROJECT/pull/1) |
+| Quickdraw | Base unlocked | 26 Nov 2025 | Closed within 5 minutes of opening | [View activity](https://github.com/Antech-greyhat/freecodecamp.org/issues/1) |
+
+</details>
+<!-- END GITHUB ACHIEVEMENTS -->
+
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt=""/>
+</p>
+
 <div align="center">
 
 <h2><img src="./assets/sections/activity.svg" alt="GitHub Activity"/></h2>

@@ -1,0 +1,117 @@
+{
+  "username": "Antech-greyhat",
+  "verified_on": "2026-11-17",
+  "timezone": "EAT (UTC+3)",
+  "badges": [
+    {
+      "slug": "galaxy-brain",
+      "name": "Galaxy Brain",
+      "badge_image_url": "https://github.githubassets.com/assets/galaxy-brain-silver-2ce8da282a85.png",
+      "badge_image": "assets/achievements/galaxy-brain.png",
+      "history": [
+        {
+          "tier": "Base",
+          "at": "2026-11-09T16:08:23Z",
+          "date_basis": "github_unlock",
+          "milestone": "2 accepted answers",
+          "source": "https://github.com/technorant/MarineAssistant/discussions/6#discussioncomment-19496284"
+        },
+        {
+          "tier": "Bronze",
+          "at": "2026-11-10T10:11:11Z",
+          "date_basis": "milestone_activity",
+          "milestone": "8 accepted answers",
+          "source": "https://github.com/Antech-greyhat/Learn.py/discussions/47#discussioncomment-19515552"
+        },
+        {
+          "tier": "Silver",
+          "at": "2026-11-17T09:17:55Z",
+          "date_basis": "milestone_activity",
+          "milestone": "16 accepted answers",
+          "source": "https://github.com/Antech-greyhat/Learn.py/discussions/62#discussioncomment-19675583"
+        }
+      ]
+    },
+    {
+      "slug": "pair-extraordinaire",
+      "name": "Pair Extraordinaire",
+      "badge_image_url": "https://github.githubassets.com/assets/pair-extraordinaire-bronze-797214f41e7e.png",
+      "badge_image": "assets/achievements/pair-extraordinaire.png",
+      "history": [
+        {
+          "tier": "Base",
+          "at": "2026-10-03T14:18:19Z",
+          "date_basis": "github_unlock",
+          "milestone": "1 coauthored merged PR",
+          "source": "https://github.com/technorant/MarineAssistant/pull/5"
+        },
+        {
+          "tier": "Bronze",
+          "at": "2026-11-06T09:23:57Z",
+          "date_basis": "milestone_activity",
+          "milestone": "10 coauthored merged PRs",
+          "source": "https://github.com/Antech-greyhat/VulnHub/pull/4"
+        }
+      ]
+    },
+    {
+      "slug": "pull-shark",
+      "name": "Pull Shark",
+      "badge_image_url": "https://github.githubassets.com/assets/pull-shark-silver-0643f87ac9fd.png",
+      "badge_image": "assets/achievements/pull-shark.png",
+      "history": [
+        {
+          "tier": "Base",
+          "at": "2026-04-13T11:03:19Z",
+          "date_basis": "github_unlock",
+          "milestone": "2 merged pull requests",
+          "source": "https://github.com/technorant/MarineAssistant/pull/2"
+        },
+        {
+          "tier": "Bronze",
+          "at": "2026-09-16T14:05:18Z",
+          "date_basis": "milestone_activity",
+          "milestone": "16 merged pull requests",
+          "source": "https://github.com/Antech-greyhat/Learn.py/pull/1"
+        },
+        {
+          "tier": "Silver",
+          "at": "2026-10-29T04:30:20Z",
+          "date_basis": "milestone_activity",
+          "milestone": "128 merged pull requests",
+          "source": "https://github.com/Antech-greyhat/Emobilis-Template/pull/1"
+        }
+      ]
+    },
+    {
+      "slug": "yolo",
+      "name": "YOLO",
+      "badge_image_url": "https://github.githubassets.com/assets/yolo-default-be0bbff04951.png",
+      "badge_image": "assets/achievements/yolo.png",
+      "history": [
+        {
+          "tier": "Base",
+          "at": "2026-06-12T13:55:25Z",
+          "date_basis": "github_unlock",
+          "milestone": "Merged without a review",
+          "source": "https://github.com/mwebidouglas08-netizen/ROBOTIC-CROP-DISEASE-DETECTION-PROJECT/pull/1"
+        }
+      ]
+    },
+    {
+      "slug": "quickdraw",
+      "name": "Quickdraw",
+      "badge_image_url": "https://github.githubassets.com/assets/quickdraw-default--dark-32bf331d1328.png",
+      "badge_image": "assets/achievements/quickdraw.png",
+      "history": [
+        {
+          "tier": "Base",
+          "at": "2025-11-26T06:59:41Z",
+          "date_basis": "github_unlock",
+          "milestone": "Closed within 5 minutes of opening",
+          "source": "https://github.com/Antech-greyhat/freecodecamp.org/issues/1"
+        }
+      ]
+    }
+  ]
+}
