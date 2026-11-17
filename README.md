@@ -102,8 +102,6 @@
 <p><a href="https://github.com/Antech-greyhat?achievement=pull-shark&amp;tab=achievements"><img src="./assets/achievements/pull-shark.svg" width="360" alt="Pull Shark. Base unlocked: 13 Apr 2026 (2 merged pull requests); Bronze milestone: 16 Sep 2026 (16 merged pull requests); Silver milestone: 29 Oct 2026 (128 merged pull requests). Dates in EAT (UTC+3)."/></a> <a href="https://github.com/Antech-greyhat?achievement=yolo&amp;tab=achievements"><img src="./assets/achievements/yolo.svg" width="360" alt="YOLO. Base unlocked: 12 Jun 2026 (Merged without a review). Dates in EAT (UTC+3)."/></a></p>
 <p><a href="https://github.com/Antech-greyhat?achievement=quickdraw&amp;tab=achievements"><img src="./assets/achievements/quickdraw.svg" width="360" alt="Quickdraw. Base unlocked: 26 Nov 2025 (Closed within 5 minutes of opening). Dates in EAT (UTC+3)."/></a></p>
 
-<p><sub>Verified 17 Nov 2026 · Dates in EAT (UTC+3).<br/>Base dates are GitHub unlock dates; later tiers show the linked milestone activity date.</sub></p>
-
 </div>
 
 <details>

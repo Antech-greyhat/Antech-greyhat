@@ -113,5 +113,6 @@
         }
       ]
     }
-  ]
+  ],
+  "automatic_refresh": true
 }

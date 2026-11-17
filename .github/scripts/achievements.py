@@ -1,12 +1,13 @@
 """Render the verified badge history, offline, using only the standard library.
 
-Edit assets/achievements/history.json after checking GitHub's badge history,
-then run this script. Base dates are GitHub unlocks; later dates are the linked
-milestone activity, because GitHub does not publish each tier's unlock time.
+The automatic updater is sync_achievements.py; this script regenerates the
+saved history without network access. Base dates are GitHub unlocks; later
+dates use GitHub tier timestamps when available, or linked milestone activity.
 """
 
 import base64
 import json
+import textwrap
 from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
@@ -24,59 +25,80 @@ def date_label(timestamp):
     return value.astimezone(EAT).strftime("%d %b %Y")
 
 
-def render_card(badge):
+def item_date(item):
+    return date_label(item["at"]) if item.get("at") else "Not published"
+
+
+def item_basis(item):
+    return "unlocked" if item["date_basis"] in {"github_unlock", "github_tier_unlock"} else "milestone"
+
+
+def render_card(badge, image_bytes=None):
     history = badge["history"]
     latest = history[-1]
     name = escape(badge["name"])
     tier = latest["tier"].upper()
     status = f"{tier} / x{len(history)}" if len(history) > 1 else "UNLOCKED"
     image_path = ROOT / badge["badge_image"]
-    image_bytes = image_path.read_bytes()
+    if image_bytes is None:
+        image_bytes = image_path.read_bytes()
     if not image_bytes.startswith(b"\x89PNG\r\n\x1a\n"):
         raise ValueError(f"Expected a PNG badge image: {image_path}")
     image = base64.b64encode(image_bytes).decode("ascii")
     accessible = escape("; ".join(
-        f"{item['tier']} {'unlocked' if index == 0 else 'milestone'} "
-        f"on {date_label(item['at'])}: {item['milestone']}"
+        f"{item['tier']} {item_basis(item)} "
+        f"on {item_date(item)}: {item['milestone']}"
         for index, item in enumerate(history)
     ), quote=True)
     rows = []
+    last_bottom = 0
     for index, item in enumerate(history):
         y = 130 + index * 47
         is_latest = index == len(history) - 1
-        label = f"{item['tier']} {'unlocked' if index == 0 else 'milestone'}"
+        label = f"{item['tier']} {item_basis(item)}"
+        milestone_lines = textwrap.wrap(item["milestone"], width=43) or [""]
+        if len(milestone_lines) > 2:
+            milestone_lines = [milestone_lines[0], milestone_lines[1][:40] + "..."]
+        subtitle = "\n".join(
+            f'<text x="44" y="{y + 18 + line * 14}" class="muted">{escape(text)}</text>'
+            for line, text in enumerate(milestone_lines)
+        )
+        last_bottom = y + 18 + (len(milestone_lines) - 1) * 14
         rows.append(
             f'<circle cx="27" cy="{y - 4}" r="4" class="'
             f'{"current" if is_latest else "dot"}"/>\n'
             f'<text x="44" y="{y}" class="label">{escape(label)}</text>\n'
             f'<text x="340" y="{y}" text-anchor="end" class="'
-            f'{"date latest" if is_latest else "date"}">{date_label(item["at"])}</text>\n'
-            f'<text x="44" y="{y + 18}" class="muted">{escape(item["milestone"])}</text>'
+            f'{"date latest" if is_latest else "date"}">{item_date(item)}</text>\n'
+            f'{subtitle}'
         )
     line = (
         f'<path d="M27 126 V{126 + (len(history) - 1) * 47}" stroke="#1b6533"/>'
         if len(history) > 1 else ""
     )
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 284" width="360" height="284" role="img" aria-label="{name}: {accessible}. Dates in EAT, UTC+3.">
+    footer_y = max(252, last_bottom + 10)
+    height = footer_y + 32
+    name_size = min(17, 228 / max(1, len(badge["name"])) / 0.62)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 {height}" width="360" height="{height}" role="img" aria-label="{name}: {accessible}. Dates in EAT, UTC+3.">
 <title>{name} achievement history</title>
 <desc>{accessible}. Base dates are GitHub unlock dates; later dates are milestone activity dates.</desc>
 <style>
 text{{font-family:Consolas,"DejaVu Sans Mono","Liberation Mono","Courier New",monospace}}
-.name{{fill:#d8ffe4;font-size:17px;font-weight:700}}
+.name{{fill:#d8ffe4;font-size:{name_size:g}px;font-weight:700}}
 .status{{fill:#00ff41;font-size:12px;font-weight:700;letter-spacing:1px}}
 .label{{fill:#b6ffcb;font-size:13px}}.date{{fill:#b6ffcb;font-size:13px;font-weight:700}}
 .latest{{fill:#00ff41}}.muted{{fill:#86b596;font-size:11px}}
 .dot{{fill:#000;stroke:#00ff41;stroke-width:1.5}}.current{{fill:#00ff41}}
 </style>
-<rect x="1" y="1" width="358" height="282" rx="6" fill="#000" stroke="#00ff41"/>
+<rect x="1" y="1" width="358" height="{height - 2}" rx="6" fill="#000" stroke="#00ff41"/>
 <image x="14" y="14" width="84" height="84" href="data:image/png;base64,{image}"/>
 <text x="110" y="45" class="name">{name}</text>
 <text x="110" y="68" class="status">{status}</text>
 <path d="M20 106 H340" stroke="#1b6533"/>
 {line}
 {chr(10).join(rows)}
-<path d="M20 252 H340" stroke="#1b6533"/>
-<text x="20" y="270" class="muted">[+] dates: EAT (UTC+3)</text>
+<path d="M20 {footer_y} H340" stroke="#1b6533"/>
+<text x="20" y="{footer_y + 18}" class="muted">[+] dates: EAT (UTC+3)</text>
 </svg>
 '''
 
@@ -94,8 +116,8 @@ def render_section(data):
     for badge in data["badges"]:
         url = f"https://github.com/{user}?achievement={badge['slug']}&amp;tab=achievements"
         text = "; ".join(
-            f"{item['tier']} {'unlocked' if index == 0 else 'milestone'}: "
-            f"{date_label(item['at'])} ({item['milestone']})"
+            f"{item['tier']} {item_basis(item)}: "
+            f"{item_date(item)} ({item['milestone']})"
             for index, item in enumerate(badge["history"])
         )
         alt = escape(f"{badge['name']}. {text}. Dates in EAT (UTC+3).", quote=True)
@@ -107,8 +129,6 @@ def render_section(data):
         lines.append(f'<p>{" ".join(card_links[index:index + 2])}</p>')
     lines.extend([
         '',
-        f'<p><sub>Verified {date_label(data["verified_on"] + "T00:00:00+03:00")} · Dates in EAT (UTC+3).<br/>Base dates are GitHub unlock dates; later tiers show the linked milestone activity date.</sub></p>',
-        '',
         '</div>',
         '',
         '<details>',
@@ -119,29 +139,33 @@ def render_section(data):
     ])
     for badge in data["badges"]:
         for index, item in enumerate(badge["history"]):
-            basis = "unlocked" if index == 0 else "milestone"
+            basis = item_basis(item)
             lines.append(
-                f'| {badge["name"]} | {item["tier"]} {basis} | {date_label(item["at"])} | '
+                f'| {badge["name"]} | {item["tier"]} {basis} | {item_date(item)} | '
                 f'{item["milestone"]} | [View activity]({item["source"]}) |'
             )
     lines.extend(['', '</details>', END])
     return "\n".join(lines)
 
 
+def validate_markers(readme):
+    if readme.count(BEGIN) != 1 or readme.count(END) != 1 or readme.index(BEGIN) >= readme.index(END):
+        raise ValueError("README must have exactly one ordered pair of achievement markers")
+
+
 def main():
     data = json.loads((ROOT / "assets/achievements/history.json").read_text(encoding="utf-8"))
     readme_path = ROOT / "README.md"
     readme = readme_path.read_text(encoding="utf-8")
-    if readme.count(BEGIN) != 1 or readme.count(END) != 1 or readme.index(BEGIN) >= readme.index(END):
-        raise ValueError("README must have exactly one ordered pair of achievement markers")
+    validate_markers(readme)
     cards = {}
     for badge in data["badges"]:
         history = badge["history"]
-        if not history or len(history) > 4:
-            raise ValueError("Badge history must contain one to four earned tiers")
+        if not history:
+            raise ValueError("Badge history must contain at least one earned tier")
         for index, item in enumerate(history):
-            expected = "github_unlock" if index == 0 else "milestone_activity"
-            if item["date_basis"] != expected:
+            expected = {"github_unlock"} if index == 0 else {"milestone_activity", "github_tier_unlock", "unavailable"}
+            if item["date_basis"] not in expected:
                 raise ValueError("Keep GitHub unlocks separate from milestone activity dates")
         cards[badge["slug"]] = render_card(badge)
     section = render_section(data)
