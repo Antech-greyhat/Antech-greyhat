@@ -6,7 +6,7 @@
     {
       "slug": "galaxy-brain",
       "name": "Galaxy Brain",
-      "badge_image_url": "https://github.githubassets.com/assets/galaxy-brain-silver-2ce8da282a85.png",
+      "badge_image_url": "https://github.githubassets.com/assets/galaxy-brain-gold-9c2c03fd1acf.png",
       "badge_image": "assets/achievements/galaxy-brain.png",
       "history": [
         {
@@ -29,6 +29,13 @@
           "date_basis": "milestone_activity",
           "milestone": "16 accepted answers",
           "source": "https://github.com/Antech-greyhat/Learn.py/discussions/62#discussioncomment-19675583"
+        },
+        {
+          "tier": "Gold",
+          "at": "2026-11-18T13:14:54Z",
+          "date_basis": "milestone_activity",
+          "milestone": "32 accepted answers",
+          "source": "https://github.com/Antech-greyhat/Learn.py/discussions/88#discussioncomment-19709369"
         }
       ]
     },
